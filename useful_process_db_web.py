@@ -23,7 +23,7 @@ def add_data(df_a, df_b):
     df_all = pd.concat([df_a, df_b], axis=1) # vertical
     return df_all
 
-def substract(df):
+def subtract(df):
     df['results'] = df['A'] - df['B']
     return df
 
